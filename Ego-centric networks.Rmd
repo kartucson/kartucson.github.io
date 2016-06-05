@@ -1,0 +1,54 @@
+---
+title: "Ego centric networks"
+author: "Karthik Srinivasan"
+date: "June 5, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+
+```
+
+## Why to use social network analysis
+
+I refered to [this class notes](http://www.analytictech.com/e-net/pdwhandout.pdf) that wonderfully describes why social networks is useful. Also see [this notes](http://www.analytictech.com/mgt780/slides/egonet1.pdf) 
+
+```{r, results = 'asis', echo = FALSE}
+rmarkdownTable <- function(df){
+  cat(paste(names(df), collapse = "|"))
+  cat("\n")
+  cat(paste(rep("-", ncol(df)), collapse = "|"))
+  cat("\n")
+
+  for(i in 1:nrow(df)){
+    cat(paste(df[i,], collapse = "|"))
+    cat("\n")
+    }
+invisible(NULL)
+}
+
+rmarkdownTable(head(iris))
+```
+
+## Ego-centric networks (ECN)
+
+Some useful concepts in ECN are:
+
+* Topological: 
+  * Structural holes/ Brokerage
+  * Embeddedness
+* Compositional
+  * Size
+  * Alter attributes
+  
+Social network concepts that can be useful to theorize:
+
+##### Homophily, heterophily and heterogenity
+For example, if we are listing the diagnoses that are related to HIP (Hospital induced pneumonia), we can answers question as follows:
+* Does the alters of HIP form groups that have domain interpretation (Coronoary diseases, Inflammatory conditions, etc) {Heterogenity}
+* Ego (HIP) as structural holes, if there is no link between alters: Interpretation is autonomy, control and information (or HIP is an interim condition?)
+
+
+
+
