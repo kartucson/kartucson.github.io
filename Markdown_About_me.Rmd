@@ -1,0 +1,20 @@
+---
+title: "Markdown_About_me"
+author: "Karthik Srinivasan"
+date: "June 5, 2016"
+output: html_document
+---
+
+
+# About me
+
+I am an engineer turned data scientist. I am currently working as a research assistant in the INSITE Center for Business Intelligence and Analytics focusing on big data analysis. 
+I am currently in a socio-intellectual transition phase into the role of a PhD guy who strives to become a promising researcher in data sciences in the near future.
+
+## EDUCATION & CAREER
+
+I completed my undergraduate degree in Electronics and Telecommunications Engineering at University of Mumbai in 2009. After a two year stint in Accenture-IT services, I got the opportunity to get exposed to the exciting world of Data Sciences through a two year Master of Management Course offered by the Dept. of Management Studies, Indian Institute of Science(IISc). I later worked for about a year in the Data Analytics Solutions team of Robert Bosch India. Currently, I have begun a new phase of my life as a PhD research scholar in MIS Dept of Eller College, University of Arizona.
+ 
+## HOBBIES & INTERESTS
+
+My primary interests can be vaguely described as staring at datasets for long hours, furiously keying into R or Python interface or reading about data sciences day to day advancements. Apart from this fantastic solo regimen, I like to indulge in music, swimming, cooking and badminton.
