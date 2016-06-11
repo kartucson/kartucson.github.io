@@ -31,6 +31,23 @@ invisible(NULL)
 rmarkdownTable(head(iris))
 ```
 
+## Concepts in SNA:
+
+It will be worthwhile to read about the following sub-topics in Network analysis:
+
+* Statistical properties of large networks
+* Models of social network structure and evolution
+* Link prediction
+* Network community detection
+* Diffusion
+* Finding influential nodes in networks
+* Networks with positive and negative ties
+
+For multi-partite graphs, it is interesting to know:
+
+* Simrank (too intensive)
+
+
 ## Ego-centric networks (ECN)
 
 Some useful concepts in ECN are:
@@ -42,6 +59,8 @@ Some useful concepts in ECN are:
   * Size
   * Alter attributes
   
+* Assortivity  
+   
 Social network concepts that can be useful to theorize:
 
 ##### Homophily, heterophily and heterogenity
@@ -49,6 +68,61 @@ For example, if we are listing the diagnoses that are related to HIP (Hospital i
 * Does the alters of HIP form groups that have domain interpretation (Coronoary diseases, Inflammatory conditions, etc) {Heterogenity}
 * Ego (HIP) as structural holes, if there is no link between alters: Interpretation is autonomy, control and information (or HIP is an interim condition?)
 
+Other properties that can be analyzed (pondered upon):
+Network size, strength, reciprocity, (attribute differences), composition (how many gastro related diseases as compared to coronory)
+
+## Conductance
+## Prestige
+
+# Apart from this
+
+Also do the MDS and cluster visualization and regular community detection (for directed weigthed networks)
+
+## Other links:
+
+Super cool work by Katya 
+
+http://kateto.net/networks-r-igraph
+http://www.leonidzhukov.net/hse/2015/networks/
+http://www.r-bloggers.com/summary-of-community-detection-algorithms-in-igraph-0-6/
+http://stackoverflow.com/questions/9471906/what-are-the-differences-between-community-detection-algorithms-in-igraph
+
+USe for assignment: 
+http://www.biofabric.org/gallery/pages/SuperQuickBioFabric.html
+
+# NN
+https://inventingsituations.net/2014/11/09/kaggle-social-networks-competition/
+https://www.kaggle.com/c/learning-social-circles
+http://francescopochetti.com/community-detection-social-networks/
+
+label.propagation.community(g)
+leading.eigenvector.community(g)
+spinglass.community(g)
+edge.betweenness.community(g)
+fastgreedy.community(g)
+walktrap.community(g) based on random walk
+Clique percolation (not in igraph but has code available
+multilevel is same as lovain method (blondel) or fast community unfolding
+## Leonid Zhukov lectures (HSE):
+
+Cliques, K-plex (maximum k nodes is not connected to each of n nodes), K-core (at least k connections are connected to each n)
+
+Communities:
 
 
+Similarity based clustering
+Clusterin/Community detection based on Link Similarity (single-linkage {most similar}, complete-linkage, mean similarity ) and then do agglomerative clustering based on similarity between groups
+(KARATE example)
 
+ - How to manually cut
+
+Community detection using graph partitioning (look at graphs and cut the edges)
+
+REQUIRED: Directed weighted overlapping community 
+Then --> 
+
+Modularity: (modularity score: fraction of edges wihtin cluster to expected fraction if edges were distributed at random)
+
+--> Continue to use connected diagnoses as input variable for classification (no graph attribute)
+ 
+ 
