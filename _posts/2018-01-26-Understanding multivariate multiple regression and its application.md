@@ -16,9 +16,9 @@ A very good source for beginners to understand multivariate regression is the [U
 
 The author explains that multivariate regression allow us for testing of coefficents across equations. The coefficients as  well as standard errors of the multivariate multiple regression are the same as ones for the corresponding univariate multiple regression models of the three outcomes. The author explains three applications for multivariate regression:
 
-1.  ## Simultanesous testing of significance of coefficients of each IV to DVs
-2.  ## Testing if coefficients for an IV is statistically different across DVs
-3.  ## Testing of differcence in coefficients values of multiple IVs across DVs
+1) Simultanesous testing of significance of coefficients of each IV to DVs
+2) Testing if coefficients for an IV is statistically different across DVs
+3) Testing of differcence in coefficients values of multiple IVs across DVs
 
 The Multivariate Analysis of variance (MANOVA) is a subset of Multivariate multiple regression method, such that it has only categorical variables as IVs. Moreoever, the objective of MANOVA, similar to ANOVA is to test if two or more (experimental) groups are statistically different for outcome variable(s). The sum of squares, the F-statistic and the p-value can be used to determine this, and group means can further be plotted with Confidence intervals after running a MANOVA.
 
