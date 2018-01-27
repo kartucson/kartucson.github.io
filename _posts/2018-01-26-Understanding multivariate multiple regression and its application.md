@@ -28,7 +28,16 @@ In the [stackexchange discussion](https://stats.stackexchange.com/questions/2542
 
 Looks like the Bayesian approach is a safer alternative to tackle multiple outcomes for now. 
 
-Please add your comments on multivariate regression modeling below.    
+<div class="wp-caption aligncenter" style="width: 755px; border: 0;">
+  <p>
+    <img class="aligncenter" src="https://github.com/kartucson/kartucson.github.io/blob/master/images/multivariate_image2.jpg" alt="File:multivariate_image2.jpg" />
+  </p>
+  
+  <p class="wp-caption-text">
+    <em> An example of two outcome variables and one input variable visualized in a 3-D scatter plot </em>
+  </p>
+</div>
+  
 
 ## Additional useful reading references in this topic:
 
@@ -43,7 +52,7 @@ How to read the output of MANOVA - https://stats.stackexchange.com/questions/215
 
 Fitting MANOVA and summary(lm) for each outcome in R: http://www.public.iastate.edu/~maitra/stat501/Rcode/manova.R
 
-Some ongoing discussions in stackexchange: 
+### Some ongoing discussions in stackexchange: 
 
 Linear multivariate regression in R - https://stackoverflow.com/questions/30976841/linear-multivariate-regression-in-r 
 
