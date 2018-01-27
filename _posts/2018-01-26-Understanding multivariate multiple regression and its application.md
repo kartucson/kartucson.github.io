@@ -28,16 +28,16 @@ In the [stackexchange discussion](https://stats.stackexchange.com/questions/2542
 
 Looks like the Bayesian approach is a safer alternative to tackle multiple outcomes for now. 
 
-<div class="wp-caption aligncenter" style="width: 450px; border: 0;">
+<div class="wp-caption aligncenter" style="width: 40px; border: 0;">
   <p>
     <img class="aligncenter" src="    https://kartucson.github.io/images/multivariate_image2.jpg" alt="File:multivariate_image2.jpg" />
   </p>
   
   <p class="wp-caption-text">
-    <em> An example of two outcome variables and one input variable visualized in a 3-D scatter plot (Source: https://www.palass.org/publications/newsletter/palaeomath-101/palaeomath-part-4-regression-iv)</em>
+    <em> An example of two outcome variables and one input variable visualized in a 3-D scatter plot </em>
   </p>
 </div>
-  
+####[Image source](https://www.palass.org/publications/newsletter/palaeomath-101/palaeomath-part-4-regression-iv) 
 
 # Additional useful reading references in this topic:
 
