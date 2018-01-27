@@ -4,7 +4,7 @@ title: "Understanding multivariate multiple regression and its application"
 date: 2018-01-26
 ---
 
-In this blog, I will do first  talk about my motivation to understand multivariate multiple regression followed by my search process, and then my interpretation of this methodology.
+In this blog, I will first talk about my motivation to understand multivariate multiple regression followed by my search process, and then my interpretation of this methodology.
 
 Multivariate multiple regression is nothing new. We all remember the statistics courses where the last few lectures are dedicated to explaining the matrix formulation of OLS regression, its equivalence followed by the multivariate multiple regression where multiple outcome variables are simultaneously modeled.
 
